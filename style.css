@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: url(./images/chiles.jpg);
+    background-size: cover;
+}
+
+.nav-bar{
+    display: flex;
+}
+
+.logo{
+    width: 65%;
+    height: 100px;
+}
+.logo h1{
+    line-height: 100px;
+    scroll-padding-left: 50px;
+    color: white;
+}
+
+.sec-mex{
+    width: 35%;
+    height: 100px;
+}
+
+.sec-mex ul{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 53px;
+}
+
+.sec-mex li{
+    list-style: none;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: red;
+}
+
+.intro{
+    width: 55%;
+    color: white;
+    height: 300px;
+    padding-top: 30px;
+    margin-left: 107px;
+
+}
+
+.intro h1{
+    font-size: 3.8rem;
+}
+
+.intro p{
+    margin: 30px 0;
+    font-size: larger;
+    font-weight: 500;
+
+}
+
+button{
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 4px;
+    padding: 11px 28px;
+    color: red;
+    border: none;
+}
+
+button :hover{
+    background: linear-gradient(50deg, white, red);
+    color: white;
+}
